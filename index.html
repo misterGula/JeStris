@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jestris</title>
+</head>
+<body>
+    <div class="grid">
+        <canvas id="board" class="game-board"></canvas>
+        <div class="right-column">
+            <div>
+                <h2>Jestris</h2>
+                <p>Очки: <span id="score">0</span></p>
+                <p>Линии: <span id="lines">0</span></p>
+                <p>Уровень: <span id="level">0</span></p>
+                <canvas id="next" class="next"></canvas>
+
+            </div>
+            <button onclick="play()" class="play-button">Играть</button>
+        </div>
+    </div>
+</body>
+</html>
