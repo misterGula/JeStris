@@ -10,5 +10,9 @@ let board = new Board();
 
 function play(){
     board.reset();
-    console.table(board.grid);
-}
+    let figure = new Figure(ctx);
+    figure.draw();
+
+    board.figure = figure;
+};
+
